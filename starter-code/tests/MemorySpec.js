@@ -20,6 +20,7 @@ describe('MemoryGame constructor', function () {
 
   it('pickedCards property should be an array', function () {
     expect(typeof memoryGame.pickedCards).toBe('object');
+    expect(memoryGame.pickedCards.length).toBe(0);
   });
 
   it('MemoryGame should have a pairsClicked property', function () {
