@@ -79,3 +79,13 @@ $(document).ready(function (){
 });
 
 
+// // With the render approach
+// // Change of cards
+// var cards = [
+//   { name: 'aquaman', img: 'aquaman.jpg', isVisible: false, isFound: false },
+// ]
+// // When the user click on a card, change cards
+
+// function render(memoryGame) {
+//   // TODO: display the board, based on cards
+// }
